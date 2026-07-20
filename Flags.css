@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+body{
+    padding: 20px;
+}
+.FlagContainer{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.Bangladesh{
+    height: 200px;
+    width: 350px;
+    background-color: green;
+    border:2px solid black;
+    position: relative;
+
+}
+.Center{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    top: 45px;
+    left: 120px;
+    position: absolute;
+}
